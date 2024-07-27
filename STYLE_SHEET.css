@@ -247,6 +247,7 @@
     background-image: url('jelly_fish2.jpg');
     background-size: cover; /* Make the background image cover the entire page */
     background-position: center;
+    min-width: 1700px;
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #7312a8e5, #0FA4AF, #00ac70);
@@ -466,7 +467,7 @@
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #7312a8e5, #0FA4AF, #00ac70);
-
+    min-width: 1700px;
 }
 #cv_header
 {
