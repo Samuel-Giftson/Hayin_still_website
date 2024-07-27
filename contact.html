@@ -1,26 +1,36 @@
-
+<!DOCTYPE html>
 <html lang='en'>
     <head>
+        <!--<meta http-equiv="Content-Security-Policy" content="
+        default-src 'self'; 
+        script-src 'none'; 
+        style-src 'self'; 
+        img-src 'self'; 
+        object-src 'none'; 
+        base-uri 'self'; 
+        form-action 'self' 'mailto:hayintamut1@gmail.com'; 
+        frame-ancestors 'none';
+    ">-->
         <link rel="stylesheet" href="STYLE_SHEET.css">
     </head>
     <body class="main_container_to" id="contact_html_to">
-        <div class='photos_nav_bar'>
-            <a class='photos_nav_box' href="index.html">Home</a>
-            <a class='photos_nav_box' href="cv_html.html">cv</a>
-            <a class='photos_nav_box' href="photos.html">Photos</a>
-            <a class='photos_nav_box' href="publication.html">Publication</a>
-            <a class='photos_nav_box' href="research.html">Research</a>
-            <a class='photos_nav_box' href="contact.html">Contact</a>
+        <div class='contacts_nav_bar'>
+            <a class='contacts_nav_box' href="index.html">Home</a>
+            <a class='contacts_nav_box' href="cv_html.html">cv</a>
+            <a class='contacts_nav_box' href="photos.html">Photos</a>
+            <a class='contacts_nav_box' href="publication.html">Publication</a>
+            <a class='contacts_nav_box' href="research.html">Research</a>
+            <a class='contacts_nav_box' href="contact.html">Contact</a>
         </div>
         <section class="main_container_contact">
-            Welcome to the contact Section. This section is still under progress.
-
-
-
+           <!-- Welcome to the contact Section. This section is still under progress.-->
         </section>
         <div class="contact-container">
-        <h1>Contact Us</h1>
-        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <h1>Contact</h1>
+        <form action="https://formsubmit.co/6f76e8e9e4d548661f96f41f66ff1669" method="POST" enctype="text/plain">
+           
+
+
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
 
@@ -32,6 +42,8 @@
 
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="6" required></textarea>
+        
+            
 
             <button type="submit">Send</button>
         </form>
